@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Secciones principales */
+main {
+    margin: 20px;
+}
+
+/* Quiénes somos */
+.quienes-somos h2 {
+    color: #0056b3;
+    font-size: 24px;
+}
+
+.quienes-somos p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Actividades */
+.actividades h2 {
+    font-size: 24px;
+    color: #228B22;
+}
+
+.actividades ul {
+    list-style-type: square;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.actividades li {
+    margin-bottom: 8px;
+}
+
+/* Temas de interés */
+.temas-interes img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Estilo para el video local */
+.video-interes {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: block;
+}
+
+/* Estilo para el iframe de YouTube */
+.youtube-video iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 315px; /* Altura estándar para videos de YouTube */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: block;
+}

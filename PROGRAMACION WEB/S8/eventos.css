@@ -1,0 +1,28 @@
+.proximos-eventos {
+    border-top: 5px solid var(--primary-color);
+    background-color: var(--background-light);
+}
+
+.tabla-eventos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-eventos th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+}
+
+.tabla-eventos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.tabla-eventos tr:nth-child(even) {
+    background-color: var(--background-light);
+}
+
+.tabla-eventos tr:hover {
+    background-color: #f0f0f0;
+}

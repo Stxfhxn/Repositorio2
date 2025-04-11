@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <style>
+        .form-registro {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .form-registro h2 {
+            text-align: center;
+        }
+        .form-registro label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-registro input, 
+        .form-registro select, 
+        .form-registro textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-registro button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-registro button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <!-- Formulario de Registro -->
+    <form class="form-registro" action="/registrar_usuario" method="POST">
+        <h2>Registro de Nuevo Usuario</h2>
+        
+        <!-- Nombre y Apellido -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+        
+        <!-- Tipo de Documento -->
+        <label for="tipo-documento">Tipo de Documento:</label>
+        <select id="tipo-documento" name="tipo_documento" required>
+            <option value="">Selecciona...</option>
+            <option value="dni">DNI</option>
+            <option value="rut">RUT</option>
+            <option value="cedula">Cédula</option>
+            <option value="pasaporte">Pasaporte</option>
+        </select>
+        
+        <!-- Número de Documento -->
+        <label for="numero-documento">Número de Documento:</label>
+        <input type="text" id="numero-documento" name="numero_documento" placeholder="Ingresa tu número de documento" required>
+        
+        <!-- Fecha de Nacimiento -->
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha_nacimiento" required>
+        
+        <!-- Sexo -->
+        <label>Sexo:</label>
+        <label><input type="radio" name="sexo" value="masculino" required> Masculino</label>
+        <label><input type="radio" name="sexo" value="femenino" required> Femenino</label>
+        
+        <!-- Correo Electrónico -->
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+        
+        <!-- Teléfono Móvil -->
+        <label for="telefono">Teléfono Móvil:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu teléfono móvil" required>
+        
+        <!-- Comentarios -->
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios aquí..."></textarea>
+        
+        <!-- Botón de Enviar -->
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>

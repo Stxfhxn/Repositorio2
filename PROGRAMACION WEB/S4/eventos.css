@@ -1,0 +1,22 @@
+/* Estilo para la tabla en Próximos eventos */
+.tabla-eventos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .tabla-eventos th, .tabla-eventos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabla-eventos th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .tabla-eventos tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,18 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+/* Estilos específicos para la sección "Quiénes somos" */
+.quienes-somos h1 {
+    font-family: 'Georgia', serif;
+    color: #007BFF;
+    font-size: 28px;
+}
+
+.quienes-somos p {
+    font-family: 'Georgia', serif;
+    color: #555;
+    line-height: 1.8;
+}

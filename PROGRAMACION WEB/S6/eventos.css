@@ -1,0 +1,30 @@
+
+.proximos-eventos {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proximos-eventos h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.tabla-eventos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla-eventos th, .tabla-eventos td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tabla-eventos th {
+    background-color: #f2f2f2;
+    color: #333;
+}

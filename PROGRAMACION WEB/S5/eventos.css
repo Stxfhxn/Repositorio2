@@ -1,0 +1,28 @@
+/* Estilos generales para el sitio */
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+/* Estilos específicos para la tabla en la sección "Próximos eventos" */
+.tabla-eventos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-eventos th, .tabla-eventos td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tabla-eventos th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilo específico para los eventos */
+.proximos-eventos {
+    background-color: #e6f7ff;
+    padding: 20px;
+}

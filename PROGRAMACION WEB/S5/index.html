@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conservación del Medio Ambiente</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="eventos.css">
+  <style>
+    /* Estilo para <label> */
+    label {
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    /* Estilo para <input> */
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    /* Estilo para formulario de registro */
+    .registro-form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilo para botón de envío */
+    #btn-submit {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    #btn-submit:hover {
+        background-color: #0056b3;
+    }
+
+    /* Estilo para campos obligatorios */
+    input[required] {
+        border: 2px solid #ff0000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sección: Quiénes somos -->
+  <section class="quienes-somos">
+    <h1>Quiénes somos</h1>
+    <p>Somos una organización dedicada a la conservación del medio ambiente, promoviendo actividades de sensibilización sobre el cambio climático.</p>
+  </section>
+
+  <!-- Sección: Actividades realizadas -->
+  <section class="actividades">
+    <h2>Actividades realizadas</h2>
+    <ul>
+      <li>Reforestación en áreas urbanas</li>
+      <li>Charlas educativas en colegios</li>
+      <li>Campañas de limpieza en playas</li>
+    </ul>
+  </section>
+
+  <!-- Sección de formulario de registro -->
+  <section class="registro">
+    <h2>Registro de usuario</h2>
+    <form class="registro-form">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit" id="btn-submit">Registrarse</button>
+    </form>
+  </section>
+</body>
+</html>
